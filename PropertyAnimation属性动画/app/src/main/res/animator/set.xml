@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<objectAnimator xmlns:android="http://schemas.android.com/apk/res/android"
+    android:duration="3000"
+    android:propertyName="rotationX"
+    android:repeatCount="1"
+    android:repeatMode="restart"
+    android:startOffset="0"
+    android:valueFrom="360.0">
+</objectAnimator>
+<!--objectAnimator不能写错-->
+<!--在XML定义动画类属性,浮点型小数,直接写小数即可,不用再带f
+提示:空间位移的参数在XML文件里有所不同,不过更简单,不用再特意去定义参照物的属性,
+直接根据值区分两种方式.1:一整个屏幕为参照物,在XML文件属性定义之是int%p;
+                     2:以控件自身大小为参照物,在XML文件属性定义值是int   -->

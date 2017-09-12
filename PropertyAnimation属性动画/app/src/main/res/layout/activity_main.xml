@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.hb.mooth9_propertyanimationdemo.MainActivity">
+
+    <!--    注意background的属性置为null -->
+
+    <Button
+        android:id="@+id/alpha_bt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="alpha"/>
+
+    <Button
+        android:id="@+id/translationY_bt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="translationY"/>
+
+    <Button
+        android:id="@+id/scaleX_bt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="scaleX"/>
+
+    <Button
+        android:id="@+id/rotationY_bt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="rotationY"/>
+
+    <Button
+        android:id="@+id/AnimatorSet_bt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="AnimatorSet"/>
+
+    <ImageButton
+        android:onClick="yyyy"
+        android:id="@+id/animation_iv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:src="@mipmap/mao1"
+        android:background="@null"/>
+
+</LinearLayout>
